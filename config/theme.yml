@@ -1,0 +1,45 @@
+name: native
+
+display_name: Native
+
+version: 1.0.0
+
+author:
+  name: "Mutlipurpose theme"
+  email: "kelkoul@gmail.com"
+  url: ""
+
+meta:
+  compatibility:
+    from: 9.1.2
+    to: ~9.1.2
+    framework: bootstrap-v5.3.3
+
+  available_layouts:
+    layout-full-width:
+      name: Full Width
+      description: No side columns, ideal for distraction-free pages such as product pages.
+    layout-both-columns:
+      name: Three Columns
+      description: One large central column and 2 side columns.
+    layout-left-column:
+      name: Two Columns, small left column
+      description: Two columns with a small left column
+    layout-right-column:
+      name: Two Columns, small right column
+      description: Two columns with a small right column
+    layout-native-global:
+      name: Native Global Layout
+      description: Fixed left panel and main right content area.
+
+theme_settings:
+  rtl_generation: false
+  default_layout: layout-native-global
+  layouts:
+    category: layout-left-column
+    best-sales: layout-left-column
+    new-products: layout-left-column
+    prices-drop: layout-left-column
+    contact: layout-left-column
+    manufacturer: layout-left-column
+    supplier: layout-left-column
