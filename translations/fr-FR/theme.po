@@ -1,0 +1,889 @@
+# French translations for Native theme - PrestaShop 9.1
+# Copyright (C) 2026
+# This file is distributed under the same license as the Native theme.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Native Theme 1.0.0\n"
+"Report-Msgid-Bugs-To: kelkoul@gmail.com\n"
+"POT-Creation-Date: 2026-09-27\n"
+"PO-Revision-Date: 2026-09-27\n"
+"Last-Translator: Kamel Kelkoul <kelkoul@gmail.com>\n"
+"Language-Team: French\n"
+"Language: fr-FR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+
+#: config/theme.yml:20
+msgid "Full Width"
+msgstr "Pleine largeur"
+
+#: config/theme.yml:21
+msgid "No side columns, ideal for distraction-free pages such as product pages."
+msgstr "Pas de colonnes latérales, idéal pour les pages sans distraction comme les pages produit."
+
+#: config/theme.yml:23
+msgid "Three Columns"
+msgstr "Trois colonnes"
+
+#: config/theme.yml:24
+msgid "One large central column and 2 side columns."
+msgstr "Une grande colonne centrale et 2 colonnes latérales."
+
+#: config/theme.yml:26
+msgid "Two Columns, small left column"
+msgstr "Deux colonnes, petite colonne gauche"
+
+#: config/theme.yml:27
+msgid "Two columns with a small left column"
+msgstr "Deux colonnes avec une petite colonne gauche"
+
+#: config/theme.yml:29
+msgid "Two Columns, small right column"
+msgstr "Deux colonnes, petite colonne droite"
+
+#: config/theme.yml:30
+msgid "Two columns with a small right column"
+msgstr "Deux colonnes avec une petite colonne droite"
+
+#: templates/_partials/copyright.tpl:9
+msgid "%copyright% %year% - Ecommerce software by %prestashop%"
+msgstr "%copyright% %year% - Logiciel e-commerce par %prestashop%"
+
+#: templates/_partials/form-errors.tpl:11
+msgid "There are %d% errors:"
+msgstr "Il y a %d% erreurs :"
+
+#: templates/_partials/form-errors.tpl:21
+msgid "Close"
+msgstr "Fermer"
+
+#: templates/_partials/form-fields.tpl:26
+msgid "-- please choose --"
+msgstr "-- veuillez choisir --"
+
+#: templates/_partials/form-fields.tpl:42
+msgid "-- please choose --"
+msgstr "-- veuillez choisir --"
+
+#: templates/_partials/form-fields.tpl:128
+msgid "-- day --"
+msgstr "-- jour --"
+
+#: templates/_partials/form-fields.tpl:129
+msgid "-- month --"
+msgstr "-- mois --"
+
+#: templates/_partials/form-fields.tpl:130
+msgid "-- year --"
+msgstr "-- année --"
+
+#: templates/_partials/form-fields.tpl:166
+msgid "Show password"
+msgstr "Afficher le mot de passe"
+
+#: templates/_partials/form-fields.tpl:167
+msgid "Hide password"
+msgstr "Masquer le mot de passe"
+
+#: templates/_partials/form-fields.tpl:232
+msgid "Optional"
+msgstr "Optionnel"
+
+#: templates/_partials/pagination.tpl:10
+msgid "Products pagination"
+msgstr "Pagination des produits"
+
+#: templates/_partials/pagination.tpl:19
+msgid "Go to previous page"
+msgstr "Aller à la page précédente"
+
+#: templates/_partials/pagination.tpl:22
+msgid "Previous"
+msgstr "Précédent"
+
+#: templates/_partials/pagination.tpl:41
+msgid "Go to page %page%"
+msgstr "Aller à la page %page%"
+
+#: templates/_partials/pagination.tpl:53
+msgid "Go to next page"
+msgstr "Aller à la page suivante"
+
+#: templates/_partials/pagination.tpl:55
+msgid "Next"
+msgstr "Suivant"
+
+#: templates/_partials/pagination.tpl:69
+msgid "%from% item(s)"
+msgstr "%from% article(s)"
+
+#: templates/catalog/_partials/product-cover-thumbnails.tpl:66
+msgid "Previous image"
+msgstr "Image précédente"
+
+#: templates/catalog/_partials/product-cover-thumbnails.tpl:71
+msgid "Next image"
+msgstr "Image suivante"
+
+#: templates/catalog/_partials/product-cover-thumbnails.tpl:76
+msgid "Open zoomed product image gallery"
+msgstr "Ouvrir la galerie d'images zoomée du produit"
+
+#: templates/catalog/_partials/product-cover-thumbnails.tpl:95
+msgid "Slide to product image %number%"
+msgstr "Glisser vers l'image du produit %number%"
+
+#: templates/catalog/_partials/product-cover-thumbnails.tpl:171
+msgid "No image available"
+msgstr "Aucune image disponible"
+
+#: templates/catalog/_partials/miniatures/product.tpl:26
+msgid "View product %product_name%"
+msgstr "Voir le produit %product_name%"
+
+#: templates/catalog/_partials/miniatures/product.tpl:35
+msgid "Price"
+msgstr "Prix"
+
+#: templates/catalog/_partials/miniatures/product.tpl:55
+msgid "Regular price"
+msgstr "Prix régulier"
+
+#: templates/catalog/_partials/miniatures/product.tpl:99
+msgid "Add to cart %product_name%"
+msgstr "Ajouter au panier %product_name%"
+
+#: templates/catalog/_partials/miniatures/product.tpl:111
+msgid "View product %product_name%"
+msgstr "Voir le produit %product_name%"
+
+#: templates/catalog/_partials/miniatures/product.tpl:112
+msgid "See details"
+msgstr "Voir les détails"
+
+#: templates/catalog/_partials/miniatures/product-quickview.tpl:9
+msgid "Quick view %product_name%"
+msgstr "Aperçu rapide %product_name%"
+
+#: templates/catalog/_partials/miniatures/product-quickview.tpl:11
+msgid "Quick view"
+msgstr "Aperçu rapide"
+
+#: templates/catalog/_partials/sort-orders.tpl:6
+msgid "Sort by"
+msgstr "Trier par"
+
+#: templates/catalog/_partials/sort-orders.tpl:17
+msgid "Change sort order"
+msgstr "Changer l'ordre de tri"
+
+#: templates/catalog/_partials/sort-orders.tpl:18
+msgid "Choose"
+msgstr "Choisir"
+
+#: templates/catalog/_partials/sort-orders.tpl:26
+msgid "Sort products by: %sort_order%"
+msgstr "Trier les produits par : %sort_order%"
+
+#: templates/catalog/_partials/active_filters.tpl:7
+msgid "Active filters"
+msgstr "Filtres actifs"
+
+#: templates/catalog/_partials/active_filters.tpl:15
+msgid "%1$s:"
+msgstr "%1$s :"
+
+#: templates/catalog/_partials/products-top.tpl:10
+msgid "There are %product_count% products."
+msgstr "Il y a %product_count% produits."
+
+#: templates/catalog/_partials/products-top.tpl:12
+msgid "There is 1 product."
+msgstr "Il y a 1 produit."
+
+#: templates/catalog/_partials/products-top.tpl:25
+msgid "Filter"
+msgstr "Filtrer"
+
+#: templates/catalog/_partials/product-prices.tpl:14
+msgid "Regular price: "
+msgstr "Prix régulier : "
+
+#: templates/catalog/_partials/product-prices.tpl:20
+msgid "Save %percentage%"
+msgstr "Économiser %percentage%"
+
+#: templates/catalog/_partials/product-prices.tpl:24
+msgid "Save %amount%"
+msgstr "Économiser %amount%"
+
+#: templates/catalog/_partials/product-prices.tpl:36
+msgid "Price: "
+msgstr "Prix : "
+
+#: templates/catalog/_partials/product-prices.tpl:44
+msgid "(%unit_price%)"
+msgstr "(%unit_price%)"
+
+#: templates/catalog/_partials/product-prices.tpl:52
+msgid "Instead of %price%"
+msgstr "Au lieu de %price%"
+
+#: templates/catalog/_partials/product-prices.tpl:59
+msgid "No tax"
+msgstr "Sans taxe"
+
+#: templates/catalog/_partials/product-prices.tpl:74
+msgid "Including %amount% for ecotax"
+msgstr "Incluant %amount% pour l'éco-tax"
+
+#: templates/catalog/_partials/product-prices.tpl:76
+msgid "(not impacted by the discount)"
+msgstr "(non impacté par la remise)"
+
+#: templates/catalog/_partials/product-prices.tpl:85
+msgid "%price% tax excluded"
+msgstr "%price% HT"
+
+#: templates/catalog/product.tpl:50
+msgid "Product brand: %brand_name%"
+msgstr "Marque du produit : %brand_name%"
+
+#: templates/catalog/product.tpl:112
+msgid "Description"
+msgstr "Description"
+
+#: templates/catalog/product.tpl:136
+msgid "Download"
+msgstr "Télécharger"
+
+#: templates/catalog/product.tpl:157
+msgid "Download %attachment_name%"
+msgstr "Télécharger %attachment_name%"
+
+#: templates/catalog/product.tpl:159
+msgid "Download"
+msgstr "Télécharger"
+
+#: templates/catalog/_partials/product-add-to-cart.tpl:35
+msgid "Product availability:"
+msgstr "Disponibilité du produit :"
+
+#: templates/catalog/_partials/product-add-to-cart.tpl:78
+msgid "Add to cart %product_name%"
+msgstr "Ajouter au panier %product_name%"
+
+#: templates/catalog/_partials/product-add-to-cart.tpl:82
+msgid "Add to cart"
+msgstr "Ajouter au panier"
+
+#: templates/catalog/_partials/product-add-to-cart.tpl:103
+msgid "The minimum purchase order quantity for the product is %quantity%."
+msgstr "La quantité minimale de commande pour ce produit est %quantity%."
+
+#: templates/catalog/_partials/facets.tpl:8
+msgid "Filter By"
+msgstr "Filtrer par"
+
+#: templates/catalog/_partials/facets.tpl:16
+msgid "Clear all"
+msgstr "Tout effacer"
+
+#: templates/catalog/_partials/facets.tpl:123
+msgid "(no filter)"
+msgstr "(aucun filtre)"
+
+#: templates/catalog/_partials/product-customization.tpl:54
+msgid "Save customization"
+msgstr "Enregistrer la personnalisation"
+
+#: templates/catalog/_partials/product-discounts.tpl:17
+msgid "You Save"
+msgstr "Vous économisez"
+
+#: templates/catalog/_partials/product-images-modal.tpl:9
+msgid "images"
+msgstr "images"
+
+#: templates/catalog/_partials/product-variants.tpl:17
+msgid ": "
+msgstr " : "
+
+#: templates/catalog/_partials/quickview.tpl:10
+msgid "Close"
+msgstr "Fermer"
+
+#: templates/catalog/listing/search.tpl:16
+msgid "Search again what you are looking for."
+msgstr "Recherchez à nouveau ce que vous cherchez."
+
+#: templates/catalog/listing/search.tpl:24
+msgid "Search results for \"%search_term%\""
+msgstr "Résultats de recherche pour \"%search_term%\""
+
+#: templates/checkout/_partials/cart-summary-product-line.tpl:114
+msgid "Quantity:"
+msgstr "Quantité :"
+
+#: templates/checkout/_partials/cart-summary-product-line.tpl:120
+msgid "Gift(s)"
+msgstr "Cadeau(x)"
+
+#: templates/checkout/_partials/cart-summary-products.tpl:10
+msgid "Show cart details"
+msgstr "Afficher les détails du panier"
+
+#: templates/checkout/_partials/customer-form.tpl:14
+msgid "Create an account"
+msgstr "Créer un compte"
+
+#: templates/checkout/_partials/customer-form.tpl:14
+msgid "(optional)"
+msgstr "(optionnel)"
+
+#: templates/checkout/_partials/customer-form.tpl:16
+msgid "And save time on your next order!"
+msgstr "Et gagnez du temps lors de votre prochaine commande !"
+
+#: templates/checkout/_partials/customer-form.tpl:38
+msgid "Continue"
+msgstr "Continuer"
+
+#: templates/checkout/_partials/login-form.tpl:16
+msgid "Continue"
+msgstr "Continuer"
+
+#: templates/checkout/_partials/address-selector-block.tpl:63
+msgid "Save"
+msgstr "Enregistrer"
+
+#: templates/checkout/_partials/modal-terms.tpl:6
+msgid "Terms and conditions"
+msgstr "Conditions générales"
+
+#: templates/checkout/_partials/modal-terms.tpl:10
+msgid "Close"
+msgstr "Fermer"
+
+#: templates/checkout/_partials/steps/personal-information.tpl:81
+msgid "Sign in"
+msgstr "Se connecter"
+
+#: templates/checkout/_partials/checkout-step-buttons.tpl:15
+msgid "Continue to %step_title%"
+msgstr "Continuer vers %step_title%"
+
+#: templates/checkout/_partials/order-final-summary.tpl:12
+msgid "Addresses"
+msgstr "Adresses"
+
+#: templates/checkout/cart.tpl:11
+msgid "Shopping Cart"
+msgstr "Panier"
+
+#: templates/checkout/cart.tpl:14
+msgid "has been removed from the cart."
+msgstr "a été retiré du panier."
+
+#: templates/checkout/cart.tpl:14
+msgid "Close"
+msgstr "Fermer"
+
+#: templates/checkout/cart.tpl:26
+msgid "Continue shopping"
+msgstr "Continuer mes achats"
+
+#: templates/checkout/cart-empty.tpl:10
+msgid "Continue shopping"
+msgstr "Continuer mes achats"
+
+#: templates/checkout/checkout-navigation.tpl:29
+msgid "Next: %step_name%"
+msgstr "Suivant : %step_name%"
+
+#: templates/customer/authentication.tpl:12
+msgid "Sign in"
+msgstr "Se connecter"
+
+#: templates/customer/authentication.tpl:27
+msgid "No account?"
+msgstr "Pas de compte ?"
+
+#: templates/customer/authentication.tpl:32
+msgid "Create your account"
+msgstr "Créer votre compte"
+
+#: templates/customer/_partials/login-form.tpl:24
+msgid "Forgot your password?"
+msgstr "Mot de passe oublié ?"
+
+#: templates/customer/_partials/login-form.tpl:29
+msgid "Sign in"
+msgstr "Se connecter"
+
+#: templates/customer/page.tpl:30
+msgid "Back to your account"
+msgstr "Retour à votre compte"
+
+#: templates/customer/password-email.tpl:10
+msgid "Forgot your password?"
+msgstr "Mot de passe oublié ?"
+
+#: templates/customer/password-email.tpl:26
+msgid "Please enter the email address you used to register. You will receive a temporary link to reset your password."
+msgstr "Veuillez entrer l'adresse email que vous avez utilisée pour vous inscrire. Vous recevrez un lien temporaire pour réinitialiser votre mot de passe."
+
+#: templates/customer/password-email.tpl:31
+msgid "Email address"
+msgstr "Adresse email"
+
+#: templates/customer/password-email.tpl:37
+msgid "Send reset link"
+msgstr "Envoyer le lien de réinitialisation"
+
+#: templates/customer/password-email.tpl:50
+msgid "Back to login"
+msgstr "Retour à la connexion"
+
+#: templates/customer/history.tpl:8
+msgid "Order history"
+msgstr "Historique des commandes"
+
+#: templates/customer/history.tpl:12
+msgid "Here are the orders you've placed since your account was created."
+msgstr "Voici les commandes que vous avez passées depuis la création de votre compte."
+
+#: templates/customer/history.tpl:15
+msgid "Order history"
+msgstr "Historique des commandes"
+
+#: templates/customer/history.tpl:19
+msgid "Order reference"
+msgstr "Référence de commande"
+
+#: templates/customer/history.tpl:22
+msgid "Date"
+msgstr "Date"
+
+#: templates/customer/history.tpl:25
+msgid "Total price"
+msgstr "Prix total"
+
+#: templates/customer/history.tpl:28
+msgid "Payment"
+msgstr "Paiement"
+
+#: templates/customer/history.tpl:31
+msgid "Status"
+msgstr "Statut"
+
+#: templates/customer/history.tpl:34
+msgid "Invoice"
+msgstr "Facture"
+
+#: templates/customer/my-account.tpl:27
+msgid "Addresses"
+msgstr "Adresses"
+
+#: templates/customer/order-detail.tpl:112
+msgid "Addresses"
+msgstr "Adresses"
+
+#: templates/components/account-menu.tpl:9
+msgid "My Account"
+msgstr "Mon compte"
+
+#: templates/components/account-menu.tpl:30
+msgid "Addresses"
+msgstr "Adresses"
+
+#: templates/components/page-title-section.tpl:1
+msgid "Search"
+msgstr "Rechercher"
+
+#: templates/cms/stores.tpl:62
+msgid "About and Contact"
+msgstr "À propos et Contact"
+
+#: templates/cms/sitemap.tpl:9
+msgid "Sitemap"
+msgstr "Plan du site"
+
+#: templates/customer/_partials/my-account-links.tpl:12
+msgid "Home"
+msgstr "Accueil"
+
+#: templates/errors/not-found.tpl:13
+msgid "Back to Home page"
+msgstr "Retour à l'accueil"
+
+#: templates/layouts/layout-both-columns.tpl:21
+msgid "Skip to main content"
+msgstr "Aller au contenu principal"
+
+#: templates/layouts/layout-both-columns.tpl:123
+msgid "Back to top"
+msgstr "Retour en haut"
+
+#: templates/customer/_partials/order-messages.tpl:64
+msgid "Send your message"
+msgstr "Envoyer votre message"
+
+#: templates/catalog/_partials/product-customization.tpl:32
+msgid "Remove image"
+msgstr "Supprimer l'image"
+
+#: templates/customer/_partials/block-address.tpl:29
+msgid "Edit address: %addressAlias%"
+msgstr "Modifier l'adresse : %addressAlias%"
+
+#: templates/customer/_partials/block-address.tpl:32
+msgid "Edit"
+msgstr "Modifier"
+
+#: templates/customer/_partials/block-address.tpl:39
+msgid "Delete address: %addressAlias%"
+msgstr "Supprimer l'adresse : %addressAlias%"
+
+#: templates/customer/_partials/block-address.tpl:42
+msgid "Delete"
+msgstr "Supprimer"
+
+#: templates/catalog/_partials/product-customization-modal.tpl:97
+msgid "View my customization"
+msgstr "Voir ma personnalisation"
+
+#: templates/customer/identity.tpl:12
+msgid "Update your personal information to keep your account details up to date."
+msgstr "Mettez à jour vos informations personnelles pour garder les détails de votre compte à jour."
+
+#: templates/customer/password-new.tpl:10
+msgid "Reset your password"
+msgstr "Réinitialiser votre mot de passe"
+
+#: templates/customer/history.tpl:63
+msgid "View invoice"
+msgstr "Voir la facture"
+
+#: templates/catalog/_partials/miniatures/product-pack.tpl:94
+msgid "View product %product_name%, part of the pack."
+msgstr "Voir le produit %product_name%, faisant partie du pack."
+
+#: templates/catalog/_partials/miniatures/product-pack.tpl:94
+msgid "Quantity inside the pack: %quantity%."
+msgstr "Quantité dans le pack : %quantity%."
+
+#: templates/catalog/_partials/miniatures/product-pack.tpl:94
+msgid "Price: %price%."
+msgstr "Prix : %price%."
+
+#: templates/customer/guest-login.tpl:52
+msgid "Send"
+msgstr "Envoyer"
+
+#: templates/customer/order-slip.tpl:28
+msgid "View order reference"
+msgstr "Voir la référence de commande"
+
+#: templates/customer/order-slip.tpl:39
+msgid "View credit slip"
+msgstr "Voir l'avoir"
+
+#: templates/customer/discount.tpl:12
+msgid "View and manage your available vouchers and discount codes for use on your next purchase."
+msgstr "Consultez et gérez vos bons de réduction et codes promo disponibles pour votre prochain achat."
+
+#: templates/customer/order-follow.tpl:29
+msgid "View order reference"
+msgstr "Voir la référence de commande"
+
+#: templates/customer/order-follow.tpl:35
+msgid "View return number"
+msgstr "Voir le numéro de retour"
+
+#: templates/customer/order-follow.tpl:49
+msgid "View returns details"
+msgstr "Voir les détails du retour"
+
+#: templates/customer/address.tpl:9
+msgid "Update your address"
+msgstr "Mettre à jour votre adresse"
+
+#: templates/checkout/_partials/address-form.tpl:39
+msgid "Cancel"
+msgstr "Annuler"
+
+#: templates/checkout/_partials/address-form.tpl:45
+msgid "Cancel"
+msgstr "Annuler"
+
+#: templates/checkout/_partials/cart-detailed-product-line.tpl:189
+msgid "Remove %productName% from cart"
+msgstr "Retirer %productName% du panier"
+
+#: templates/checkout/_partials/cart-detailed-product-line.tpl:191
+msgid "Remove"
+msgstr "Retirer"
+
+#: templates/checkout/_partials/address-selector-block.tpl:41
+msgid "Edit address: %addressAlias%"
+msgstr "Modifier l'adresse : %addressAlias%"
+
+#: templates/checkout/_partials/address-selector-block.tpl:43
+msgid "Edit"
+msgstr "Modifier"
+
+#: templates/checkout/_partials/address-selector-block.tpl:50
+msgid "Delete address: %addressAlias%"
+msgstr "Supprimer l'adresse : %addressAlias%"
+
+#: templates/customer/order-detail.tpl:119
+msgid "Delivery address: %alias%"
+msgstr "Adresse de livraison : %alias%"
+
+#: templates/customer/order-detail.tpl:130
+msgid "Invoice address: %alias%"
+msgstr "Adresse de facturation : %alias%"
+
+#: templates/customer/order-slip.tpl:47
+msgid "You have not received any credit slips."
+msgstr "Vous n'avez pas reçu d'avoirs."
+
+#: templates/customer/order-return.tpl:33
+msgid "Quantity"
+msgstr "Quantité"
+
+#: templates/customer/order-return.tpl:66
+msgid "Quantity"
+msgstr "Quantité"
+
+#: templates/customer/_partials/order-shipments.tpl:12
+msgid "Carrier"
+msgstr "Transporteur"
+
+#: templates/customer/_partials/order-shipments.tpl:13
+msgid "Weight"
+msgstr "Poids"
+
+#: templates/customer/_partials/order-shipments.tpl:14
+msgid "Tracking number"
+msgstr "Numéro de suivi"
+
+#: templates/customer/_partials/order-shipments.tpl:22
+msgid "Carrier"
+msgstr "Transporteur"
+
+#: templates/customer/_partials/order-shipments.tpl:25
+msgid "Weight"
+msgstr "Poids"
+
+#: templates/customer/_partials/order-shipments.tpl:28
+msgid "Tracking number"
+msgstr "Numéro de suivi"
+
+#: templates/customer/order-follow.tpl:62
+msgid "You have no merchandise return authorizations."
+msgstr "Vous n'avez aucune autorisation de retour de marchandise."
+
+#: templates/customer/history.tpl:36
+msgid "Actions"
+msgstr "Actions"
+
+#: templates/customer/order-return.tpl:8
+msgid "Return details"
+msgstr "Détails du retour"
+
+#: templates/customer/order-return.tpl:29
+msgid "Return details"
+msgstr "Détails du retour"
+
+#: templates/customer/_partials/order-detail-return.tpl:15
+msgid "Returned"
+msgstr "Retourné"
+
+#: templates/customer/_partials/order-detail-return.tpl:138
+msgid "Available quantity to return:"
+msgstr "Quantité disponible à retourner :"
+
+#: templates/customer/_partials/order-detail-return.tpl:153
+msgid "Returned"
+msgstr "Retourné"
+
+#: templates/customer/_partials/order-detail-return.tpl:190
+msgid "Return notes"
+msgstr "Notes de retour"
+
+#: templates/customer/_partials/order-detail-return-multishipment.tpl:15
+msgid "Returned"
+msgstr "Retourné"
+
+#: templates/customer/_partials/order-detail-return-multishipment.tpl:66
+msgid "Return notes"
+msgstr "Notes de retour"
+
+#: templates/customer/order-follow.tpl:19
+msgid "Return"
+msgstr "Retour"
+
+#: templates/customer/order-follow.tpl:22
+msgid "Returns details"
+msgstr "Détails des retours"
+
+#: templates/customer/order-follow.tpl:33
+msgid "Return"
+msgstr "Retour"
+
+#: templates/customer/order-follow.tpl:47
+msgid "Returns details"
+msgstr "Détails des retours"
+
+#: templates/customer/_partials/order-detail-product-line-return.tpl:135
+msgid "Available quantity to return:"
+msgstr "Quantité disponible à retourner :"
+
+#: templates/customer/_partials/order-detail-product-line-return.tpl:150
+msgid "Returned"
+msgstr "Retourné"
+
+#: templates/checkout/order-confirmation.tpl:62
+msgid "Shipping method: %method%"
+msgstr "Mode de livraison : %method%"
+
+#: templates/customer/my-account.tpl:53
+msgid "Vouchers"
+msgstr "Bons de réduction"
+
+#: templates/customer/_partials/order-carrier.tpl:14
+msgid "Shipping cost"
+msgstr "Frais de livraison"
+
+#: templates/customer/_partials/order-carrier.tpl:29
+msgid "Shipping cost"
+msgstr "Frais de livraison"
+
+#: templates/customer/history.tpl:73
+msgid "Details"
+msgstr "Détails"
+
+#: templates/customer/history.tpl:79
+msgid "Reorder"
+msgstr "Commander à nouveau"
+
+#: templates/customer/_partials/order-shipments.tpl:11
+msgid "Date"
+msgstr "Date"
+
+#: templates/customer/_partials/order-shipments.tpl:19
+msgid "Date"
+msgstr "Date"
+
+#: templates/customer/guest-login.tpl:39
+msgid "Email"
+msgstr "Email"
+
+#: templates/customer/_partials/order-messages.tpl:39
+msgid "Product"
+msgstr "Produit"
+
+#: templates/customer/_partials/order-messages.tpl:50
+msgid "Message"
+msgstr "Message"
+
+#: templates/customer/discount.tpl:18
+msgid "Code"
+msgstr "Code"
+
+#: templates/customer/discount.tpl:19
+msgid "Name"
+msgstr "Nom"
+
+#: templates/customer/discount.tpl:20
+msgid "Quantity"
+msgstr "Quantité"
+
+#: templates/customer/discount.tpl:21
+msgid "Value"
+msgstr "Valeur"
+
+#: templates/customer/discount.tpl:22
+msgid "Minimum"
+msgstr "Minimum"
+
+#: templates/customer/discount.tpl:23
+msgid "Cumulative"
+msgstr "Cumulable"
+
+#: templates/cms/stores.tpl:9
+msgid "Our stores"
+msgstr "Nos magasins"
+
+#: templates/cms/stores.tpl:99
+msgid "View schedules"
+msgstr "Voir les horaires"
+
+#: templates/errors/not-found.tpl:21
+msgid "Go shopping"
+msgstr "Faire du shopping"
+
+#: templates/components/account-menu.tpl:64
+msgid "Credit slips"
+msgstr "Avoirs"
+
+#: templates/components/account-menu.tpl:88
+msgid "Merchandise returns"
+msgstr "Retours de marchandise"
+
+#: templates/components/account-menu.tpl:98
+msgid "Sign out"
+msgstr "Se déconnecter"
+
+#: templates/checkout/order-confirmation.tpl:56
+msgid "Order details"
+msgstr "Détails de la commande"
+
+#: templates/checkout/checkout.tpl:37
+msgid "Order summary"
+msgstr "Récapitulatif de commande"
+
+#: templates/checkout/cart.tpl:40
+msgid "Order summary"
+msgstr "Récapitulatif de commande"
+
+#: templates/checkout/_partials/steps/personal-information.tpl:66
+msgid "New customer"
+msgstr "Nouveau client"
+
+#: templates/customer/_partials/order-shipments.tpl:8
+msgid "Order tracking"
+msgstr "Suivi de commande"
+
+#: templates/customer/_partials/order-shipments.tpl:6
+msgid "Shipment tracking details"
+msgstr "Détails du suivi de livraison"
+
+#: templates/customer/_partials/order-messages.tpl:8
+msgid "Customer service messages"
+msgstr "Messages du service client"
+
+#: templates/customer/_partials/order-messages.tpl:32
+msgid "Add a message"
+msgstr "Ajouter un message"
+
+#: templates/customer/_partials/order-detail-return.tpl:11
+msgid "Select all products"
+msgstr "Sélectionner tous les produits"
+
+#: templates/customer/_partials/order-detail-return.tpl:208
+msgid "Request a return"
+msgstr "Demander un retour"
+
+#: templates/customer/_partials/order-detail-return-multishipment.tpl:11
+msgid "Select all products"
+msgstr "Sélectionner tous les produits"
+
+#: templates/customer/_partials/order-detail-return-multishipment.tpl:84
+msgid "Request a return"
+msgstr "Demander un retour"
