@@ -12,7 +12,7 @@
     {/block}
   </head>
 
-  <body id="{$page.page_name}" class="{$page.body_classes|classnames}">
+  <body id="{$page.page_name}" class="{$page.body_classes|classnames} motion-theme">
     {block name='top_content'}
       <div id="back-to-top"></div>
     {/block}
@@ -29,72 +29,86 @@
       {include file='catalog/_partials/product-activation.tpl'}
     {/block}
 
-    <header id="header" class="header js-sticky-header" data-ps-ref="header">
+    {* MOTION LAYOUT : column 1 (main footer + nav1) + fixed column 2 (logo, icons, top, right column, footer after) + content column (nav2, content, footer before) *}
+    <div class="motion-shell" id="motion-shell">
+
       {block name='header'}
-        {include file='_partials/header.tpl'}
-      {/block}
-    </header>
-
-    <main id="wrapper" class="wrapper">
-      {hook h='displayWrapperTop'}
-      
-      {block name='breadcrumb'}
-        {include file='_partials/breadcrumb.tpl'}
+        <header id="header" class="header motion-header">
+          {include file='_partials/header.tpl'}
+        </header>
       {/block}
 
-      {block name='main_content'}
-        {* This is the main content anchor used for accessibility. *}
-        <div id="main-content"></div>
-      {/block}
 
-      {block name='notifications'}
-        {include file='_partials/notifications.tpl'}
-      {/block}
+      <div id="motion-content" class="motion-content">
 
-      {block name='content_columns'}
-        <div class="{block name='container_class'}columns-container container{/block}">
-          <div class="row">
-            {block name='left_column'}
-              <div id="left-column" class="left-column col-md-4 col-lg-3">
-                {if $page.page_name === 'product'}
-                  {hook h='displayLeftColumnProduct'}
-                {else}
-                  {hook h='displayLeftColumn'}
-                {/if}
-              </div>
+        <main id="wrapper" class="wrapper">
+
+            {capture name="nav_full_width"}{hook h='displayNavFullWidth'}{/capture}
+            {if !empty($smarty.capture.nav_full_width)}
+              <div class="header-nav-full-width">{$smarty.capture.nav_full_width nofilter}</div>
+            {/if}
+          
+            {capture name="motion_nav_2"}{hook h='displayNav2'}{/capture}
+            {include file='_partials/motion-debug.tpl' zone='displayNav2' html=$smarty.capture.motion_nav_2}
+            {block name='motion_nav_2'}
+              {if !empty($smarty.capture.motion_nav_2)}
+                <div class="motion-nav2">
+                  {$smarty.capture.motion_nav_2 nofilter}
+                </div>
+              {/if}
             {/block}
 
-            {block name='content_wrapper'}
-              <div id="center-column" class="center-column page col-md-4 col-lg-6">
-                {hook h='displayContentWrapperTop'}
-                {block name='content'}
-                  <p>Hello world! This is HTML5 Boilerplate.</p>
+
+            {hook h='displayWrapperTop'}
+
+            {block name='breadcrumb'}
+              {include file='_partials/breadcrumb.tpl'}
+            {/block}
+
+            {block name='main_content'}
+              {* This is the main content anchor used for accessibility. *}
+              <div id="main-content"></div>
+            {/block}
+
+            {block name='notifications'}
+              {include file='_partials/notifications.tpl'}
+            {/block}
+
+            {block name='content_columns'}
+              <div class="{block name='container_class'}columns-container container-fluid{/block}">
+                {block name='left_column'}
+                  {* DisplayLeftColumn : product list pages (rendered by category-header.tpl) and contact page only *}
+                  {if $page.page_name === 'contact'}
+                    <div id="left-column" class="motion-left-column">
+                      {hook h='displayLeftColumn'}
+                      {hook h='displayContactLeftColumn'}
+                    </div>
+                  {/if}
                 {/block}
-                {hook h='displayContentWrapperBottom'}
+
+                {block name='content_wrapper'}
+                  <div id="center-column" class="center-column page page--full-width">
+                    {hook h='displayContentWrapperTop'}
+                    {block name='content'}
+                      <p>Hello world! This is HTML5 Boilerplate.</p>
+                    {/block}
+                    {hook h='displayContentWrapperBottom'}
+                  </div>
+                {/block}
+                {block name='right_column'}{/block}
               </div>
             {/block}
 
-            {block name='right_column'}
-              <div id="right-column" class="right-column col-md-4 col-lg-3">
-                {if $page.page_name === 'product'}
-                  {hook h='displayRightColumnProduct'}
-                {else}
-                  {hook h='displayRightColumn'}
-                {/if}
-              </div>
-            {/block}
-          </div>
-        </div>
-      {/block}
+            {hook h='displayWrapperBottom'}
+        </main>
 
-      {hook h='displayWrapperBottom'}
-    </main>
-
-    {block name='footer'}
-      <footer id="footer" class="footer">
-        {include file='_partials/footer.tpl'}
-      </footer>
-    {/block}
+        {block name='footer'}
+          <footer id="footer" class="footer motion-footer">
+            {include file='_partials/footer.tpl'}
+          </footer>
+        {/block}
+      </div>
+    </div>
 
     {block name='javascript_bottom'}
       {include file='_partials/javascript.tpl' javascript=$javascript.bottom}
